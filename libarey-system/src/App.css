@@ -1,0 +1,183 @@
+:root {
+    --bg: #f4f6f9;
+    --card: #ffffff;
+    --card-border: #e0e0e0;
+    --text: #2c3e50;
+    --muted: #7f8c8d;
+    --primary: #4a90e2;
+    --secondary: #50b7c1;
+    --radius: 10px;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #95c1e0;
+    color: rgb(0, 0, 0);
+}
+
+/* ---- Navbar ---- */
+.navbar {
+    background-color:#ceefff;
+    padding: 16px 24px;
+    box-shadow: var(--shadow);
+    border-bottom: 1px solid rgb(199, 240, 247);
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 22px;
+    color: var(--primary);
+}
+
+/* ---- Books Wrap ---- */
+.books-wrap {
+    width: min(1200px, 92%);
+    margin: 40px auto;
+}
+
+/* ---- Book Grid ---- */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+/* ---- Book Card ---- */
+.book-card {
+    background:#FBFBFB;
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.book-cover {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.book-body {
+    padding: 16px;
+}
+
+.book-title {
+    font-size: 18px;
+    margin: 10px 0 6px;
+}
+
+.book-meta {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+.book-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+.container {
+    max-width: 1100px;
+}
+
+/* Page Title */
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+/* ---- Button ---- */
+.btn-view {
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-view:hover {
+    background-color: #3a7bd5;
+}
+
+/* ==== Member List ==== */
+.member-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background: #ffffff;
+    color: var(--text);
+    border-radius: var(--radius);
+    border: 1px solid var(--card-border);
+    margin-bottom: 12px;
+    font-weight: 700px;
+}
+
+.member-item {
+    background: #fff;
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: box-shadow 0.2s ease;
+}
+
+.member-item:hover {
+    box-shadow: var(--shadow);
+}
+
+.member-name {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.member-email,
+.member-address {
+    font-size: 15px;
+    color: var(--text);
+}
+
+.member-phone {
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.add-member-btn {
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--secondary);
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.add-member-btn:hover {
+    background-color: #40a1a9;
+} 
+
+
