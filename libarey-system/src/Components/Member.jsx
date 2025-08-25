@@ -26,35 +26,25 @@ function Members() {
             )}
 
             <div className="list-group">
-                <div className="member-header">
-                    <h5>Name</h5>
-                    <h5>Email</h5>
-                    <h5>Phone.No</h5>
-                    <h5>Address</h5>
-                </div>
+                <div className="member-header"></div>
                 <ol>
                     {membershow.map((member) => (
                         <div
                             key={member?.id}
-                            className="list-group-item member-item d-flex align-items-center justify-content-evenly gap-3"
+                            className="list-group-item member-item"
                         >
-                            <div className="d-flex flex-column flex-md-row align-items-md-center gap-2">
-                                <li></li>
-                                <h5 className="mb-0 member-name">{member?.name}</h5>
-                                <span className="text-muted small">•</span>
-                                <span className="member-email">{member?.email}</span>
+                            {/* Name */}
+                            <h5 className="mb-2 member-name">{member?.name}</h5>
+
+                            {/* Details Line by Line */}
+                            <div className="member-details">
+                                <p className="member-email">📧 {member?.email}</p>
+                                <p className="member-phone">📞 {member?.phone}</p>
+                                <p className="member-address">📍 {member?.address}</p>
                             </div>
 
-                            <div className="d-flex flex-wrap gap-2">
-                                <span className="badge member-phone">
-                                     {member?.phone}
-                                </span>
-                                <span className="text-truncate small member-address">
-                                     {member?.address}
-                                </span>
-                            </div>
-
-                            <div className="d-flex align-items-center gap-1">
+                            {/* Status & Actions */}
+                            <div className="d-flex align-items-center gap-2 mt-3">
                                 <span className="badge text-bg-primary">{member?.type}</span>
                                 <span
                                     className={
@@ -64,13 +54,11 @@ function Members() {
                                 >
                                     {member?.isActive ? "Active" : "Inactive"}
                                 </span>
-                                <span>
-                                    <button className="btn btn-danger">Delete</button>
-                                </span>
+                                <button className="btn btn-danger btn-sm">Delete</button>
                             </div>
                         </div>
                     ))}
-                </ol>
+        </ol>
             </div>
             <br />
             <button
