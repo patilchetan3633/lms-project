@@ -1,0 +1,1256 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isAvailable": "true",
+      "isbn": [
+        "101",
+        "102",
+        "103"
+      ],
+      "rent": "15",
+      "gener": "Gothic Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isAvailable": "true",
+      "isbn": [
+        "201",
+        "202"
+      ],
+      "rent": "12",
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "isAvailable": "false",
+      "isbn": [
+        "301",
+        "302",
+        "303"
+      ],
+      "rent": "18",
+      "gener": "Adventure",
+      "cover": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isAvailable": "true",
+      "isbn": [
+        "401",
+        "402"
+      ],
+      "rent": "10",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
+    },
+    {
+      "id": "5",
+      "title": "1984",
+      "author": "George Orwell",
+      "isAvailable": "true",
+      "isbn": [
+        "501",
+        "502"
+      ],
+      "rent": "14",
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222241-L.jpg"
+    },
+    {
+      "id": "6",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isAvailable": "true",
+      "isbn": [
+        "601",
+        "602"
+      ],
+      "rent": "11",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "isAvailable": "false",
+      "isbn": [
+        "701",
+        "702"
+      ],
+      "rent": "16",
+      "gener": "Horror",
+      "cover": "https://covers.openlibrary.org/b/id/8231990-L.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isAvailable": "true",
+      "isbn": [
+        "801",
+        "802"
+      ],
+      "rent": "20",
+      "gener": "Fantasy",
+      "cover": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
+    },
+    {
+      "id": "9",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isAvailable": "false",
+      "isbn": [
+        "901",
+        "902"
+      ],
+      "rent": "25",
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222301-L.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": "true",
+      "isbn": [
+        "1001",
+        "1002"
+      ],
+      "rent": "19",
+      "gener": "Psychological Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8231851-L.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "isAvailable": "true",
+      "isbn": [
+        "1101",
+        "1102"
+      ],
+      "rent": "13",
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/8091020-L.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "isAvailable": "false",
+      "isbn": [
+        "1201",
+        "1202"
+      ],
+      "rent": "14",
+      "gener": "Gothic Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8231832-L.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isAvailable": "true",
+      "isbn": [
+        "1301"
+      ],
+      "rent": "12",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/8235116-L.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isAvailable": "true",
+      "isbn": [
+        "1401"
+      ],
+      "rent": "15",
+      "gener": "Science Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8771796-L.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "isAvailable": "false",
+      "isbn": [
+        "1501"
+      ],
+      "rent": "22",
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/7222296-L.jpg"
+    },
+    {
+      "id": "16",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "isAvailable": "true",
+      "isbn": [
+        "1601"
+      ],
+      "rent": "18",
+      "gener": "Epic",
+      "cover": "https://covers.openlibrary.org/b/id/6979863-L.jpg"
+    },
+    {
+      "id": "17",
+      "title": "The Iliad",
+      "author": "Homer",
+      "isAvailable": "true",
+      "isbn": [
+        "1701"
+      ],
+      "rent": "18",
+      "gener": "Epic",
+      "cover": "https://covers.openlibrary.org/b/id/6979862-L.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isAvailable": "true",
+      "isbn": [
+        "1801"
+      ],
+      "rent": "14",
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222271-L.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "isAvailable": "false",
+      "isbn": [
+        "1901"
+      ],
+      "rent": "24",
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222302-L.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "isAvailable": "true",
+      "isbn": [
+        "2001"
+      ],
+      "rent": "23",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7222305-L.jpg"
+    },
+    {
+      "id": "21",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "isAvailable": "true",
+      "isbn": [
+        "2101"
+      ],
+      "rent": "16",
+      "gener": "Gothic Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8231861-L.jpg"
+    },
+    {
+      "id": "22",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": "false",
+      "isbn": [
+        "2201"
+      ],
+      "rent": "20",
+      "gener": "Philosophical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8231853-L.jpg"
+    },
+    {
+      "id": "23",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "isAvailable": "true",
+      "isbn": [
+        "2301"
+      ],
+      "rent": "22",
+      "gener": "Epic Poetry",
+      "cover": "https://covers.openlibrary.org/b/id/7222297-L.jpg"
+    },
+    {
+      "id": "24",
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "isAvailable": "true",
+      "isbn": [
+        "2401"
+      ],
+      "rent": "21",
+      "gener": "Modernist",
+      "cover": "https://covers.openlibrary.org/b/id/8235109-L.jpg"
+    },
+    {
+      "id": "25",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "isAvailable": "false",
+      "isbn": [
+        "2501"
+      ],
+      "rent": "17",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7222286-L.jpg"
+    },
+    {
+      "id": "26",
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isAvailable": "true",
+      "isbn": [
+        "2601"
+      ],
+      "rent": "14",
+      "gener": "Philosophical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8235107-L.jpg"
+    },
+    {
+      "id": "27",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "isAvailable": "true",
+      "isbn": [
+        "2701"
+      ],
+      "rent": "15",
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222279-L.jpg"
+    },
+    {
+      "id": "28",
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "isAvailable": "true",
+      "isbn": [
+        "2801"
+      ],
+      "rent": "15",
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/8231837-L.jpg"
+    },
+    {
+      "id": "29",
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "isAvailable": "false",
+      "isbn": [
+        "2901"
+      ],
+      "rent": "20",
+      "gener": "Adventure",
+      "cover": "https://covers.openlibrary.org/b/id/7222287-L.jpg"
+    },
+    {
+      "id": "30",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isAvailable": "true",
+      "isbn": [
+        "3001"
+      ],
+      "rent": "12",
+      "gener": "Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/8235105-L.jpg"
+    },
+    {
+      "id": "31",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isAvailable": "true",
+      "isbn": [
+        "3101"
+      ],
+      "rent": "20",
+      "gener": "Magical Realism",
+      "cover": "https://covers.openlibrary.org/b/id/8235112-L.jpg"
+    },
+    {
+      "id": "32",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isAvailable": "false",
+      "isbn": [
+        "3201",
+        "3202"
+      ],
+      "rent": "28",
+      "gener": "Fantasy",
+      "cover": "https://covers.openlibrary.org/b/id/8231993-L.jpg"
+    }
+  ],
+  "Member": [
+    {
+      "id": "1",
+      "name": "Deep Ghag",
+      "email": "deep@gmail.com",
+      "phone": "9834573289",
+      "address": "Mumbai, Maharashtra - 400001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "2",
+      "name": "Chetan Patil",
+      "email": "chetan.patil@gmail.com",
+      "phone": "9876543210",
+      "address": "Pune, Maharashtra - 411001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "3",
+      "name": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@gmail.com",
+      "phone": "9823456712",
+      "address": "Nagpur, Maharashtra - 440001",
+      "type": "student",
+      "isActive": "false"
+    },
+    {
+      "id": "4",
+      "name": "Rohan Deshmukh",
+      "email": "rohan.deshmukh@gmail.com",
+      "phone": "9812345678",
+      "address": "Nashik, Maharashtra - 422001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "5",
+      "name": "Priya Shinde",
+      "email": "priya.shinde@gmail.com",
+      "phone": "9898989898",
+      "address": "Kolhapur, Maharashtra - 416001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "6",
+      "name": "Amit Jadhav",
+      "email": "amit.jadhav@gmail.com",
+      "phone": "9834678912",
+      "address": "Aurangabad, Maharashtra - 431001",
+      "type": "student",
+      "isActive": "false"
+    },
+    {
+      "id": "7",
+      "name": "Neha More",
+      "email": "neha.more@gmail.com",
+      "phone": "9765432109",
+      "address": "Thane, Maharashtra - 400601",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "8",
+      "name": "Suresh Pawar",
+      "email": "suresh.pawar@gmail.com",
+      "phone": "9823567890",
+      "address": "Satara, Maharashtra - 415001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "9",
+      "name": "Ankita Joshi",
+      "email": "ankita.joshi@gmail.com",
+      "phone": "9911223344",
+      "address": "Solapur, Maharashtra - 413001",
+      "type": "student",
+      "isActive": "false"
+    },
+    {
+      "id": "10",
+      "name": "Rahul Patankar",
+      "email": "rahul.patankar@gmail.com",
+      "phone": "9900112233",
+      "address": "Sangli, Maharashtra - 416416",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "11",
+      "name": "Pooja Sawant",
+      "email": "pooja.sawant@gmail.com",
+      "phone": "9887766554",
+      "address": "Ratnagiri, Maharashtra - 415612",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "12",
+      "name": "Kunal Gawande",
+      "email": "kunal.gawande@gmail.com",
+      "phone": "9823456711",
+      "address": "Amravati, Maharashtra - 444601",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "13",
+      "name": "Meera Lokhande",
+      "email": "meera.lokhande@gmail.com",
+      "phone": "9811122233",
+      "address": "Dhule, Maharashtra - 424001",
+      "type": "student",
+      "isActive": "false"
+    },
+    {
+      "id": "14",
+      "name": "Vikas Chavan",
+      "email": "vikas.chavan@gmail.com",
+      "phone": "9722334455",
+      "address": "Jalgaon, Maharashtra - 425001",
+      "type": "student",
+      "isActive": "true"
+    },
+    {
+      "id": "15",
+      "name": "Shivani Naik",
+      "email": "shivani.naik@gmail.com",
+      "phone": "9654321987",
+      "address": "Sindhudurg, Maharashtra - 416510",
+      "type": "student",
+      "isActive": "true"
+    }
+  ],
+  "fines": [
+    {
+      "FineID": 1,
+      "MemberID": 201,
+      "IssueID": 1,
+      "Amount": 5,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-05-16",
+      "id": "fbdb"
+    },
+    {
+      "FineID": 2,
+      "MemberID": 202,
+      "IssueID": 2,
+      "Amount": 10,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "f2bb"
+    },
+    {
+      "FineID": 3,
+      "MemberID": 205,
+      "IssueID": 5,
+      "Amount": 7.5,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "81a1"
+    },
+    {
+      "FineID": 4,
+      "MemberID": 208,
+      "IssueID": 8,
+      "Amount": 3,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "fe5a"
+    },
+    {
+      "FineID": 5,
+      "MemberID": 211,
+      "IssueID": 11,
+      "Amount": 12,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "9398"
+    },
+    {
+      "FineID": 6,
+      "MemberID": 214,
+      "IssueID": 14,
+      "Amount": 4,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "c4c0"
+    },
+    {
+      "FineID": 7,
+      "MemberID": 220,
+      "IssueID": 20,
+      "Amount": 8,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "b2b0"
+    },
+    {
+      "FineID": 8,
+      "MemberID": 207,
+      "IssueID": 7,
+      "Amount": 6,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-05-29",
+      "id": "ebc6"
+    },
+    {
+      "FineID": 9,
+      "MemberID": 210,
+      "IssueID": 10,
+      "Amount": 2.5,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-04",
+      "id": "1fa9"
+    },
+    {
+      "FineID": 10,
+      "MemberID": 213,
+      "IssueID": 13,
+      "Amount": 9,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-10",
+      "id": "fd25"
+    },
+    {
+      "FineID": 11,
+      "MemberID": 216,
+      "IssueID": 16,
+      "Amount": 5,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-16",
+      "id": "067e"
+    },
+    {
+      "FineID": 12,
+      "MemberID": 217,
+      "IssueID": 17,
+      "Amount": 11,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "248b"
+    },
+    {
+      "FineID": 13,
+      "MemberID": 219,
+      "IssueID": 19,
+      "Amount": 4.5,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-22",
+      "id": "ede1"
+    },
+    {
+      "FineID": 14,
+      "MemberID": 203,
+      "IssueID": 3,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "6a58"
+    },
+    {
+      "FineID": 15,
+      "MemberID": 204,
+      "IssueID": 4,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "1033"
+    },
+    {
+      "FineID": 16,
+      "MemberID": 206,
+      "IssueID": 6,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "172b"
+    },
+    {
+      "FineID": 17,
+      "MemberID": 209,
+      "IssueID": 9,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "4dfc"
+    },
+    {
+      "FineID": 18,
+      "MemberID": 212,
+      "IssueID": 12,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "d014"
+    },
+    {
+      "FineID": 19,
+      "MemberID": 215,
+      "IssueID": 15,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "49a7"
+    },
+    {
+      "FineID": 20,
+      "MemberID": 218,
+      "IssueID": 18,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "cf5a"
+    },
+    {
+      "FineID": 21,
+      "MemberID": 221,
+      "IssueID": 21,
+      "Amount": 15,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "860c"
+    },
+    {
+      "FineID": 22,
+      "MemberID": 222,
+      "IssueID": 22,
+      "Amount": 7,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-25",
+      "id": "1890"
+    },
+    {
+      "FineID": 23,
+      "MemberID": 223,
+      "IssueID": 23,
+      "Amount": 3.5,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-26",
+      "id": "502f"
+    },
+    {
+      "FineID": 24,
+      "MemberID": 224,
+      "IssueID": 24,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "8503"
+    },
+    {
+      "FineID": 25,
+      "MemberID": 225,
+      "IssueID": 25,
+      "Amount": 9.5,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "4af0"
+    },
+    {
+      "FineID": 26,
+      "MemberID": 226,
+      "IssueID": 26,
+      "Amount": 6,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-27",
+      "id": "9250"
+    },
+    {
+      "FineID": 27,
+      "MemberID": 227,
+      "IssueID": 27,
+      "Amount": 4,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "1427"
+    },
+    {
+      "FineID": 28,
+      "MemberID": 228,
+      "IssueID": 28,
+      "Amount": 0,
+      "PaidStatus": "None",
+      "PaymentDate": null,
+      "id": "8d04"
+    },
+    {
+      "FineID": 29,
+      "MemberID": 229,
+      "IssueID": 29,
+      "Amount": 8,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-28",
+      "id": "71cc"
+    },
+    {
+      "FineID": 30,
+      "MemberID": 230,
+      "IssueID": 30,
+      "Amount": 5.5,
+      "PaidStatus": "Unpaid",
+      "PaymentDate": null,
+      "id": "0d41"
+    }
+  ],
+  "issue": [
+    {
+      "IssueID": 1,
+      "BookID": 101,
+      "MemberID": 201,
+      "IssueDate": "2024-05-01",
+      "DueDate": "2024-05-15",
+      "ReturnDate": "2024-05-14",
+      "FineStatus": "Paid",
+      "id": "cc25"
+    },
+    {
+      "IssueID": 2,
+      "BookID": 102,
+      "MemberID": 202,
+      "IssueDate": "2024-05-03",
+      "DueDate": "2024-05-17",
+      "ReturnDate": "2024-05-20",
+      "FineStatus": "Unpaid",
+      "id": "812e"
+    },
+    {
+      "IssueID": 3,
+      "BookID": 103,
+      "MemberID": 203,
+      "IssueDate": "2024-05-05",
+      "DueDate": "2024-05-19",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "7d57"
+    },
+    {
+      "IssueID": 4,
+      "BookID": 104,
+      "MemberID": 204,
+      "IssueDate": "2024-05-07",
+      "DueDate": "2024-05-21",
+      "ReturnDate": "2024-05-21",
+      "FineStatus": "None",
+      "id": "2bd9"
+    },
+    {
+      "IssueID": 5,
+      "BookID": 105,
+      "MemberID": 205,
+      "IssueDate": "2024-05-10",
+      "DueDate": "2024-05-24",
+      "ReturnDate": "2024-05-25",
+      "FineStatus": "Unpaid",
+      "id": "4382"
+    },
+    {
+      "IssueID": 6,
+      "BookID": 106,
+      "MemberID": 206,
+      "IssueDate": "2024-05-12",
+      "DueDate": "2024-05-26",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "2cef"
+    },
+    {
+      "IssueID": 7,
+      "BookID": 107,
+      "MemberID": 207,
+      "IssueDate": "2024-05-14",
+      "DueDate": "2024-05-28",
+      "ReturnDate": "2024-05-27",
+      "FineStatus": "Paid",
+      "id": "a95b"
+    },
+    {
+      "IssueID": 8,
+      "BookID": 108,
+      "MemberID": 208,
+      "IssueDate": "2024-05-16",
+      "DueDate": "2024-05-30",
+      "ReturnDate": "2024-06-01",
+      "FineStatus": "Unpaid",
+      "id": "c1a8"
+    },
+    {
+      "IssueID": 9,
+      "BookID": 109,
+      "MemberID": 209,
+      "IssueDate": "2024-05-18",
+      "DueDate": "2024-06-01",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "9f94"
+    },
+    {
+      "IssueID": 10,
+      "BookID": 110,
+      "MemberID": 210,
+      "IssueDate": "2024-05-20",
+      "DueDate": "2024-06-03",
+      "ReturnDate": "2024-06-02",
+      "FineStatus": "Paid",
+      "id": "8c47"
+    },
+    {
+      "IssueID": 11,
+      "BookID": 111,
+      "MemberID": 211,
+      "IssueDate": "2024-05-22",
+      "DueDate": "2024-06-05",
+      "ReturnDate": "2024-06-06",
+      "FineStatus": "Unpaid",
+      "id": "2f5f"
+    },
+    {
+      "IssueID": 12,
+      "BookID": 112,
+      "MemberID": 212,
+      "IssueDate": "2024-05-24",
+      "DueDate": "2024-06-07",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "337c"
+    },
+    {
+      "IssueID": 13,
+      "BookID": 113,
+      "MemberID": 213,
+      "IssueDate": "2024-05-26",
+      "DueDate": "2024-06-09",
+      "ReturnDate": "2024-06-08",
+      "FineStatus": "Paid",
+      "id": "49bd"
+    },
+    {
+      "IssueID": 14,
+      "BookID": 114,
+      "MemberID": 214,
+      "IssueDate": "2024-05-28",
+      "DueDate": "2024-06-11",
+      "ReturnDate": "2024-06-12",
+      "FineStatus": "Unpaid",
+      "id": "5a07"
+    },
+    {
+      "IssueID": 15,
+      "BookID": 115,
+      "MemberID": 215,
+      "IssueDate": "2024-05-30",
+      "DueDate": "2024-06-13",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "babb"
+    },
+    {
+      "IssueID": 16,
+      "BookID": 116,
+      "MemberID": 216,
+      "IssueDate": "2024-06-01",
+      "DueDate": "2024-06-15",
+      "ReturnDate": "2024-06-14",
+      "FineStatus": "Paid",
+      "id": "778d"
+    },
+    {
+      "IssueID": 17,
+      "BookID": 117,
+      "MemberID": 217,
+      "IssueDate": "2024-06-03",
+      "DueDate": "2024-06-17",
+      "ReturnDate": "2024-06-18",
+      "FineStatus": "Unpaid",
+      "id": "6e7c"
+    },
+    {
+      "IssueID": 18,
+      "BookID": 118,
+      "MemberID": 218,
+      "IssueDate": "2024-06-05",
+      "DueDate": "2024-06-19",
+      "ReturnDate": null,
+      "FineStatus": "None",
+      "id": "c03f"
+    },
+    {
+      "IssueID": 19,
+      "BookID": 119,
+      "MemberID": 219,
+      "IssueDate": "2024-06-07",
+      "DueDate": "2024-06-21",
+      "ReturnDate": "2024-06-20",
+      "FineStatus": "Paid",
+      "id": "d518"
+    },
+    {
+      "IssueID": 20,
+      "BookID": 120,
+      "MemberID": 220,
+      "IssueDate": "2024-06-09",
+      "DueDate": "2024-06-23",
+      "ReturnDate": "2024-06-25",
+      "FineStatus": "Unpaid",
+      "id": "1ec8"
+    }
+  ],
+  "reservation": [
+    {
+      "ReservationID": 1,
+      "BookID": 101,
+      "MemberID": 201,
+      "ReservationDate": "2024-06-01",
+      "Status": "Active",
+      "id": "e7e4"
+    },
+    {
+      "ReservationID": 2,
+      "BookID": 102,
+      "MemberID": 202,
+      "ReservationDate": "2024-06-02",
+      "Status": "Cancelled",
+      "id": "e448"
+    },
+    {
+      "ReservationID": 3,
+      "BookID": 103,
+      "MemberID": 203,
+      "ReservationDate": "2024-06-03",
+      "Status": "Active",
+      "id": "2afb"
+    },
+    {
+      "ReservationID": 4,
+      "BookID": 104,
+      "MemberID": 204,
+      "ReservationDate": "2024-06-04",
+      "Status": "Completed",
+      "id": "c027"
+    },
+    {
+      "ReservationID": 5,
+      "BookID": 105,
+      "MemberID": 205,
+      "ReservationDate": "2024-06-05",
+      "Status": "Active",
+      "id": "d226"
+    },
+    {
+      "ReservationID": 6,
+      "BookID": 106,
+      "MemberID": 206,
+      "ReservationDate": "2024-06-06",
+      "Status": "Cancelled",
+      "id": "3998"
+    },
+    {
+      "ReservationID": 7,
+      "BookID": 107,
+      "MemberID": 207,
+      "ReservationDate": "2024-06-07",
+      "Status": "Active",
+      "id": "cb0e"
+    },
+    {
+      "ReservationID": 8,
+      "BookID": 108,
+      "MemberID": 208,
+      "ReservationDate": "2024-06-08",
+      "Status": "Completed",
+      "id": "f8e2"
+    },
+    {
+      "ReservationID": 9,
+      "BookID": 109,
+      "MemberID": 209,
+      "ReservationDate": "2024-06-09",
+      "Status": "Active",
+      "id": "7ba8"
+    },
+    {
+      "ReservationID": 10,
+      "BookID": 110,
+      "MemberID": 210,
+      "ReservationDate": "2024-06-10",
+      "Status": "Cancelled",
+      "id": "3c5c"
+    },
+    {
+      "ReservationID": 11,
+      "BookID": 111,
+      "MemberID": 211,
+      "ReservationDate": "2024-06-11",
+      "Status": "Active",
+      "id": "49d6"
+    },
+    {
+      "ReservationID": 12,
+      "BookID": 112,
+      "MemberID": 212,
+      "ReservationDate": "2024-06-12",
+      "Status": "Completed",
+      "id": "ad22"
+    },
+    {
+      "ReservationID": 13,
+      "BookID": 113,
+      "MemberID": 213,
+      "ReservationDate": "2024-06-13",
+      "Status": "Active",
+      "id": "8ccd"
+    },
+    {
+      "ReservationID": 14,
+      "BookID": 114,
+      "MemberID": 214,
+      "ReservationDate": "2024-06-14",
+      "Status": "Cancelled",
+      "id": "4951"
+    },
+    {
+      "ReservationID": 15,
+      "BookID": 115,
+      "MemberID": 215,
+      "ReservationDate": "2024-06-15",
+      "Status": "Active",
+      "id": "94fd"
+    },
+    {
+      "ReservationID": 16,
+      "BookID": 116,
+      "MemberID": 216,
+      "ReservationDate": "2024-06-16",
+      "Status": "Completed",
+      "id": "0f80"
+    },
+    {
+      "ReservationID": 17,
+      "BookID": 117,
+      "MemberID": 217,
+      "ReservationDate": "2024-06-17",
+      "Status": "Active",
+      "id": "e08e"
+    },
+    {
+      "ReservationID": 18,
+      "BookID": 118,
+      "MemberID": 218,
+      "ReservationDate": "2024-06-18",
+      "Status": "Cancelled",
+      "id": "6718"
+    },
+    {
+      "ReservationID": 19,
+      "BookID": 119,
+      "MemberID": 219,
+      "ReservationDate": "2024-06-19",
+      "Status": "Active",
+      "id": "dd9f"
+    },
+    {
+      "ReservationID": 20,
+      "BookID": 120,
+      "MemberID": 220,
+      "ReservationDate": "2024-06-20",
+      "Status": "Completed",
+      "id": "92cd"
+    },
+    {
+      "ReservationID": 21,
+      "BookID": 121,
+      "MemberID": 221,
+      "ReservationDate": "2024-06-21",
+      "Status": "Active",
+      "id": "25e5"
+    },
+    {
+      "ReservationID": 22,
+      "BookID": 122,
+      "MemberID": 222,
+      "ReservationDate": "2024-06-22",
+      "Status": "Cancelled",
+      "id": "d259"
+    },
+    {
+      "ReservationID": 23,
+      "BookID": 123,
+      "MemberID": 223,
+      "ReservationDate": "2024-06-23",
+      "Status": "Active",
+      "id": "93c2"
+    },
+    {
+      "ReservationID": 24,
+      "BookID": 124,
+      "MemberID": 224,
+      "ReservationDate": "2024-06-24",
+      "Status": "Completed",
+      "id": "6ba2"
+    },
+    {
+      "ReservationID": 25,
+      "BookID": 125,
+      "MemberID": 225,
+      "ReservationDate": "2024-06-25",
+      "Status": "Active",
+      "id": "bbb8"
+    },
+    {
+      "ReservationID": 26,
+      "BookID": 126,
+      "MemberID": 226,
+      "ReservationDate": "2024-06-26",
+      "Status": "Cancelled",
+      "id": "0ac3"
+    },
+    {
+      "ReservationID": 27,
+      "BookID": 127,
+      "MemberID": 227,
+      "ReservationDate": "2024-06-27",
+      "Status": "Active",
+      "id": "5ea9"
+    },
+    {
+      "ReservationID": 28,
+      "BookID": 128,
+      "MemberID": 228,
+      "ReservationDate": "2024-06-28",
+      "Status": "Completed",
+      "id": "38e9"
+    },
+    {
+      "ReservationID": 29,
+      "BookID": 129,
+      "MemberID": 229,
+      "ReservationDate": "2024-06-29",
+      "Status": "Active",
+      "id": "5912"
+    },
+    {
+      "ReservationID": 30,
+      "BookID": 130,
+      "MemberID": 230,
+      "ReservationDate": "2024-06-30",
+      "Status": "Cancelled",
+      "id": "70fe"
+    }
+  ]
+}
