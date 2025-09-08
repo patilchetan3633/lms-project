@@ -1,20 +1,17 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import { useState } from "react";
+import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import { NavLink, useNavigate } from "react-router-dom";
-import logo from "../assets/logo.jpg"; // 🖼️ Your custom logo
+import logo from "../assets/logo.jpg";
+import { useState } from "react";
 
-function LibraryNavbar() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [role, setRole] = useState("");
+function LibraryNavbar({ isLoggedIn, setIsLoggedIn, role, setRole }) {
   const [showModal, setShowModal] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [disable, setDisable] = useState(true);
-
   const navigate = useNavigate();
 
   const handleLoginSubmit = (e) => {
@@ -25,72 +22,78 @@ function LibraryNavbar() {
       setIsLoggedIn(true);
       alert("Admin Logged In");
       setShowModal(false);
+       navigate("/books"); // login ke baad redirect
     } else if (username === "user" && password === "123") {
       setRole("user");
       setIsLoggedIn(true);
       alert("User Logged In");
       setShowModal(false);
+       navigate("/books"); // login ke baad redirect
     } else {
       alert("Invalid Credentials");
     }
   };
 
-  const handleGoBack = () => {
-    navigate(-1);
-    setDisable(true);
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setRole("");
+    navigate("/");
   };
 
   return (
     <>
-      <Navbar bg="light" className="shadow-sm">
-        <Container className="d-flex justify-content-between align-items-center">
-          {/* 🔥 LOGO + BRAND */}
-          <div className="d-flex align-items-center gap-2">
+      <Navbar bg="light" expand="lg" className="shadow-sm">
+        <Container>
+          {/* 🔥 Logo + Brand */}
+          <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center gap-2">
             <img
               src={logo}
               alt="Library Logo"
               style={{
-                width: "65px",
-                height: "65px",
-                borderRadius: "20%",
+                width: "55px",
+                height: "55px",
+                borderRadius: "50%",
                 objectFit: "cover",
                 boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
               }}
             />
-            <h4 className="m-0 fw-bold" style={{ color: "#333" }}>
-              Library Management
-            </h4>
-          </div>
+            <span className="fw-bold">Library Management</span>
+          </Navbar.Brand>
 
-          {/* 🔥 BUTTONS */}
-          <div className="d-flex gap-2">
-            {!isLoggedIn && (
-              <Button
-                variant="outline-dark"
-                onClick={() => setShowModal(true)}
-              >
-                Login
-              </Button>
-            )}
-
-            {isLoggedIn && (role === "admin" ? (
-              <Button
-                as={NavLink}
-                to="/members"
-                variant="outline-info"
-                onClick={() => setDisable(false)}
-              >
-                Members
-              </Button>
-            ) : (
-              <Button variant="outline-info" disabled>
-                Members
-              </Button>
-            ))}
+          {/* 🔥 Nav Links */}
+          <Nav className="me-auto gap-2">
+            <Nav.Link as={NavLink} to="/" end>
+              Dashboard
+            </Nav.Link>
 
             {isLoggedIn && (
-              <Button onClick={handleGoBack} disabled={disable}>
-                Library
+              <Nav.Link as={NavLink} to="/books">
+                Books
+              </Nav.Link>
+            )}
+
+            {isLoggedIn && role === "admin" && (
+              <Nav.Link as={NavLink} to="/members">
+                Members
+              </Nav.Link>
+            )}
+
+            {isLoggedIn && (
+              <Nav.Link as={NavLink} to="/fines">
+                Fines
+              </Nav.Link>
+            )}
+          </Nav>
+
+          {/* 🔥 Right-side Buttons */}
+          <div className="d-flex gap-2">
+            {!isLoggedIn ? (
+              <Button variant="outline-dark" onClick={() => setShowModal(true)}>
+                Login
+              </Button>
+            ) : (
+              <Button variant="outline-danger" onClick={handleLogout}>
+                Logout
               </Button>
             )}
           </div>

@@ -10,7 +10,7 @@
         "102",
         "103"
       ],
-      "rent": "15",
+      "rent": false,
       "gener": "Gothic Fiction",
       "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
     },
@@ -66,19 +66,6 @@
       "rent": "14",
       "gener": "Dystopian",
       "cover": "https://covers.openlibrary.org/b/id/7222241-L.jpg"
-    },
-    {
-      "id": "6",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "isAvailable": "true",
-      "isbn": [
-        "601",
-        "602"
-      ],
-      "rent": "11",
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
     },
     {
       "id": "7",
@@ -169,18 +156,6 @@
       "rent": "12",
       "gener": "Classic",
       "cover": "https://covers.openlibrary.org/b/id/8235116-L.jpg"
-    },
-    {
-      "id": "14",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "isAvailable": "true",
-      "isbn": [
-        "1401"
-      ],
-      "rent": "15",
-      "gener": "Science Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8771796-L.jpg"
     },
     {
       "id": "15",
@@ -686,8 +661,8 @@
       "FineID": 17,
       "MemberID": 209,
       "IssueID": 9,
-      "Amount": 0,
-      "PaidStatus": "None",
+      "Amount": "23",
+      "PaidStatus": "Paid",
       "PaymentDate": null,
       "id": "4dfc"
     },
