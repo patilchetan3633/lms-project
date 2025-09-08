@@ -22,13 +22,13 @@ function LibraryNavbar({ isLoggedIn, setIsLoggedIn, role, setRole }) {
       setIsLoggedIn(true);
       alert("Admin Logged In");
       setShowModal(false);
-       navigate("/books"); // login ke baad redirect
+      navigate("/books"); // login ke baad redirect
     } else if (username === "user" && password === "123") {
       setRole("user");
       setIsLoggedIn(true);
       alert("User Logged In");
       setShowModal(false);
-       navigate("/books"); // login ke baad redirect
+      navigate("/books"); // login ke baad redirect
     } else {
       alert("Invalid Credentials");
     }
@@ -83,6 +83,19 @@ function LibraryNavbar({ isLoggedIn, setIsLoggedIn, role, setRole }) {
                 Fines
               </Nav.Link>
             )}
+
+            {isLoggedIn && (
+              <Nav.Link as={NavLink} to="/issue-return">
+                Issue/Return
+              </Nav.Link>
+            )}
+
+              {isLoggedIn && (
+              <Nav.Link as={NavLink} to="/reservation">
+                Reservation
+              </Nav.Link>
+            )}
+
           </Nav>
 
           {/* 🔥 Right-side Buttons */}

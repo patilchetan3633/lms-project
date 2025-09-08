@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Frankenstein",
       "author": "Mary Shelley",
-      "isAvailable": "true",
+      "isAvailable": true,
       "isbn": [
         "101",
         "102",
@@ -12,7 +12,12 @@
       ],
       "rent": false,
       "gener": "Gothic Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "memberId": "",
+      "dueDate": ""
     },
     {
       "id": "2",
@@ -20,359 +25,587 @@
       "author": "Jane Austen",
       "isAvailable": "true",
       "isbn": [
-        "201",
-        "202"
+        "201"
       ],
-      "rent": "12",
+      "rent": false,
       "gener": "Romance",
-      "cover": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "3",
       "title": "Moby-Dick",
       "author": "Herman Melville",
-      "isAvailable": "false",
+      "isAvailable": "true",
       "isbn": [
         "301",
-        "302",
-        "303"
+        "302"
       ],
-      "rent": "18",
+      "rent": true,
       "gener": "Adventure",
-      "cover": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "reserved": true,
+      "reservedBy": "Member_2",
+      "reservedDate": "2025-09-05"
     },
     {
       "id": "4",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
+      "title": "1984",
+      "author": "George Orwell",
       "isAvailable": "true",
       "isbn": [
-        "401",
-        "402"
+        "401"
       ],
-      "rent": "10",
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
+      "rent": false,
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222241-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "5",
-      "title": "1984",
-      "author": "George Orwell",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
       "isAvailable": "true",
       "isbn": [
         "501",
         "502"
       ],
-      "rent": "14",
-      "gener": "Dystopian",
-      "cover": "https://covers.openlibrary.org/b/id/7222241-L.jpg"
+      "rent": false,
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7352160-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "6",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isAvailable": "true",
+      "isbn": [
+        "601"
+      ],
+      "rent": true,
+      "gener": "Drama",
+      "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+      "reserved": true,
+      "reservedBy": "Member_5",
+      "reservedDate": "2025-09-01"
     },
     {
       "id": "7",
-      "title": "Dracula",
-      "author": "Bram Stoker",
-      "isAvailable": "false",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isAvailable": "true",
       "isbn": [
         "701",
         "702"
       ],
-      "rent": "16",
-      "gener": "Horror",
-      "cover": "https://covers.openlibrary.org/b/id/8231990-L.jpg"
+      "rent": false,
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222325-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "8",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "isAvailable": "true",
-      "isbn": [
-        "801",
-        "802"
-      ],
-      "rent": "20",
-      "gener": "Fantasy",
-      "cover": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
-    },
-    {
-      "id": "9",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "isAvailable": "false",
-      "isbn": [
-        "901",
-        "902"
-      ],
-      "rent": "25",
-      "gener": "Historical",
-      "cover": "https://covers.openlibrary.org/b/id/7222301-L.jpg"
-    },
-    {
-      "id": "10",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "isAvailable": "true",
       "isbn": [
-        "1001",
-        "1002"
+        "801"
       ],
-      "rent": "19",
+      "rent": false,
       "gener": "Psychological Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8231851-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/7222275-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "11",
+      "id": "9",
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "isAvailable": "true",
       "isbn": [
-        "1101",
-        "1102"
+        "901"
       ],
-      "rent": "13",
+      "rent": false,
       "gener": "Romance",
-      "cover": "https://covers.openlibrary.org/b/id/8091020-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/8091018-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "12",
-      "title": "Wuthering Heights",
-      "author": "Emily Brontë",
-      "isAvailable": "false",
-      "isbn": [
-        "1201",
-        "1202"
-      ],
-      "rent": "14",
-      "gener": "Gothic Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8231832-L.jpg"
-    },
-    {
-      "id": "13",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "isAvailable": "true",
-      "isbn": [
-        "1301"
-      ],
-      "rent": "12",
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/8235116-L.jpg"
-    },
-    {
-      "id": "15",
-      "title": "Anna Karenina",
-      "author": "Leo Tolstoy",
-      "isAvailable": "false",
-      "isbn": [
-        "1501"
-      ],
-      "rent": "22",
-      "gener": "Romance",
-      "cover": "https://covers.openlibrary.org/b/id/7222296-L.jpg"
-    },
-    {
-      "id": "16",
+      "id": "10",
       "title": "The Odyssey",
       "author": "Homer",
       "isAvailable": "true",
       "isbn": [
+        "1001"
+      ],
+      "rent": false,
+      "gener": "Epic Poetry",
+      "cover": "https://covers.openlibrary.org/b/id/8231885-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "11",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isAvailable": "true",
+      "isbn": [
+        "1101"
+      ],
+      "rent": true,
+      "gener": "Coming of Age",
+      "cover": "https://covers.openlibrary.org/b/id/8228571-L.jpg",
+      "reserved": true,
+      "reservedBy": "Member_7",
+      "reservedDate": "2025-09-07"
+    },
+    {
+      "id": "12",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isAvailable": "true",
+      "isbn": [
+        "1201"
+      ],
+      "rent": false,
+      "gener": "Fantasy",
+      "cover": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "13",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isAvailable": "true",
+      "isbn": [
+        "1301"
+      ],
+      "rent": false,
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222296-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "14",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "isAvailable": "true",
+      "isbn": [
+        "1401"
+      ],
+      "rent": false,
+      "gener": "Tragedy",
+      "cover": "https://covers.openlibrary.org/b/id/7222326-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "15",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "isAvailable": "true",
+      "isbn": [
+        "1501"
+      ],
+      "rent": false,
+      "gener": "Historical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222328-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "16",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "isAvailable": "true",
+      "isbn": [
         "1601"
       ],
-      "rent": "18",
-      "gener": "Epic",
-      "cover": "https://covers.openlibrary.org/b/id/6979863-L.jpg"
+      "rent": false,
+      "gener": "Horror",
+      "cover": "https://covers.openlibrary.org/b/id/7222278-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "17",
-      "title": "The Iliad",
-      "author": "Homer",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
       "isAvailable": "true",
       "isbn": [
         "1701"
       ],
-      "rent": "18",
-      "gener": "Epic",
-      "cover": "https://covers.openlibrary.org/b/id/6979862-L.jpg"
+      "rent": false,
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/7222280-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "18",
-      "title": "Fahrenheit 451",
-      "author": "Ray Bradbury",
-      "isAvailable": "true",
-      "isbn": [
-        "1801"
-      ],
-      "rent": "14",
-      "gener": "Dystopian",
-      "cover": "https://covers.openlibrary.org/b/id/7222271-L.jpg"
-    },
-    {
-      "id": "19",
-      "title": "Les Misérables",
-      "author": "Victor Hugo",
-      "isAvailable": "false",
-      "isbn": [
-        "1901"
-      ],
-      "rent": "24",
-      "gener": "Historical",
-      "cover": "https://covers.openlibrary.org/b/id/7222302-L.jpg"
-    },
-    {
-      "id": "20",
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "isAvailable": "true",
-      "isbn": [
-        "2001"
-      ],
-      "rent": "23",
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7222305-L.jpg"
-    },
-    {
-      "id": "21",
-      "title": "The Picture of Dorian Gray",
-      "author": "Oscar Wilde",
-      "isAvailable": "true",
-      "isbn": [
-        "2101"
-      ],
-      "rent": "16",
-      "gener": "Gothic Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8231861-L.jpg"
-    },
-    {
-      "id": "22",
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "isAvailable": "false",
-      "isbn": [
-        "2201"
-      ],
-      "rent": "20",
-      "gener": "Philosophical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8231853-L.jpg"
-    },
-    {
-      "id": "23",
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
       "isAvailable": "true",
       "isbn": [
-        "2301"
+        "1801"
       ],
-      "rent": "22",
+      "rent": false,
       "gener": "Epic Poetry",
-      "cover": "https://covers.openlibrary.org/b/id/7222297-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/7222299-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "24",
-      "title": "Ulysses",
-      "author": "James Joyce",
+      "id": "19",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
       "isAvailable": "true",
       "isbn": [
-        "2401"
+        "1901"
       ],
-      "rent": "21",
-      "gener": "Modernist",
-      "cover": "https://covers.openlibrary.org/b/id/8235109-L.jpg"
-    },
-    {
-      "id": "25",
-      "title": "Madame Bovary",
-      "author": "Gustave Flaubert",
-      "isAvailable": "false",
-      "isbn": [
-        "2501"
-      ],
-      "rent": "17",
+      "rent": false,
       "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7222286-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/7222305-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "26",
-      "title": "The Stranger",
-      "author": "Albert Camus",
+      "id": "20",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
       "isAvailable": "true",
       "isbn": [
-        "2601"
+        "2001"
       ],
-      "rent": "14",
+      "rent": false,
       "gener": "Philosophical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8235107-L.jpg"
+      "cover": "https://covers.openlibrary.org/b/id/7222311-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "27",
+      "id": "21",
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
       "isAvailable": "true",
       "isbn": [
-        "2701"
+        "2101"
       ],
-      "rent": "15",
-      "gener": "Historical",
-      "cover": "https://covers.openlibrary.org/b/id/7222279-L.jpg"
+      "rent": false,
+      "gener": "Historical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222331-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "28",
-      "title": "Great Expectations",
-      "author": "Charles Dickens",
+      "id": "22",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
       "isAvailable": "true",
       "isbn": [
-        "2801"
+        "2201"
       ],
-      "rent": "15",
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/8231837-L.jpg"
+      "rent": true,
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222308-L.jpg",
+      "reserved": true,
+      "reservedBy": "Member_10",
+      "reservedDate": "2025-09-06"
     },
     {
-      "id": "29",
-      "title": "The Count of Monte Cristo",
-      "author": "Alexandre Dumas",
-      "isAvailable": "false",
-      "isbn": [
-        "2901"
-      ],
-      "rent": "20",
-      "gener": "Adventure",
-      "cover": "https://covers.openlibrary.org/b/id/7222287-L.jpg"
-    },
-    {
-      "id": "30",
+      "id": "23",
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "isAvailable": "true",
       "isbn": [
-        "3001"
+        "2301"
       ],
-      "rent": "12",
-      "gener": "Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/8235105-L.jpg"
+      "rent": false,
+      "gener": "Adventure",
+      "cover": "https://covers.openlibrary.org/b/id/8108696-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
-      "id": "31",
+      "id": "24",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "isAvailable": "true",
+      "isbn": [
+        "2401"
+      ],
+      "rent": false,
+      "gener": "Philosophical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222315-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "25",
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "isAvailable": "true",
+      "isbn": [
+        "2501"
+      ],
+      "rent": false,
+      "gener": "Allegorical Novel",
+      "cover": "https://covers.openlibrary.org/b/id/7222319-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "26",
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "isAvailable": "true",
+      "isbn": [
+        "2601"
+      ],
+      "rent": true,
+      "gener": "Adventure",
+      "cover": "https://covers.openlibrary.org/b/id/7222322-L.jpg",
+      "reserved": true,
+      "reservedBy": "Member_14",
+      "reservedDate": "2025-08-30"
+    },
+    {
+      "id": "27",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "isAvailable": "true",
       "isbn": [
+        "2701"
+      ],
+      "rent": false,
+      "gener": "Magic Realism",
+      "cover": "https://covers.openlibrary.org/b/id/7222327-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "28",
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "isAvailable": "true",
+      "isbn": [
+        "2801"
+      ],
+      "rent": false,
+      "gener": "Novella",
+      "cover": "https://covers.openlibrary.org/b/id/7222335-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "29",
+      "title": "The Iliad",
+      "author": "Homer",
+      "isAvailable": "true",
+      "isbn": [
+        "2901"
+      ],
+      "rent": false,
+      "gener": "Epic Poetry",
+      "cover": "https://covers.openlibrary.org/b/id/7222338-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "30",
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isAvailable": "true",
+      "isbn": [
+        "3001"
+      ],
+      "rent": false,
+      "gener": "Philosophical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222341-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "31",
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "isAvailable": "true",
+      "isbn": [
         "3101"
       ],
-      "rent": "20",
-      "gener": "Magical Realism",
-      "cover": "https://covers.openlibrary.org/b/id/8235112-L.jpg"
+      "rent": false,
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7222344-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     },
     {
       "id": "32",
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "isAvailable": "false",
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "isAvailable": "true",
       "isbn": [
-        "3201",
-        "3202"
+        "3201"
       ],
-      "rent": "28",
-      "gener": "Fantasy",
-      "cover": "https://covers.openlibrary.org/b/id/8231993-L.jpg"
+      "rent": false,
+      "gener": "Modernist",
+      "cover": "https://covers.openlibrary.org/b/id/7222347-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "33",
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "isAvailable": "true",
+      "isbn": [
+        "3301"
+      ],
+      "rent": false,
+      "gener": "Historical Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222350-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "34",
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "isAvailable": "true",
+      "isbn": [
+        "3401"
+      ],
+      "rent": false,
+      "gener": "Social Commentary",
+      "cover": "https://covers.openlibrary.org/b/id/7222353-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "35",
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "isAvailable": "true",
+      "isbn": [
+        "3501"
+      ],
+      "rent": false,
+      "gener": "Science Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222356-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "36",
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "isAvailable": "true",
+      "isbn": [
+        "3601"
+      ],
+      "rent": false,
+      "gener": "Absurdist Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222359-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "37",
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "isAvailable": "true",
+      "isbn": [
+        "3701"
+      ],
+      "rent": false,
+      "gener": "Novella",
+      "cover": "https://covers.openlibrary.org/b/id/7222362-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "38",
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "isAvailable": "true",
+      "isbn": [
+        "3801"
+      ],
+      "rent": false,
+      "gener": "Modernist",
+      "cover": "https://covers.openlibrary.org/b/id/7222365-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "39",
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "isAvailable": "true",
+      "isbn": [
+        "3901"
+      ],
+      "rent": false,
+      "gener": "Novel",
+      "cover": "https://covers.openlibrary.org/b/id/7222368-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
+    },
+    {
+      "id": "40",
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "isAvailable": "true",
+      "isbn": [
+        "4001"
+      ],
+      "rent": false,
+      "gener": "African-American Literature",
+      "cover": "https://covers.openlibrary.org/b/id/7222371-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": ""
     }
   ],
   "Member": [
@@ -383,133 +616,238 @@
       "phone": "9834573289",
       "address": "Mumbai, Maharashtra - 400001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
     },
     {
       "id": "2",
-      "name": "Chetan Patil",
-      "email": "chetan.patil@gmail.com",
+      "name": "Riya Sharma",
+      "email": "riya.sharma@gmail.com",
       "phone": "9876543210",
       "address": "Pune, Maharashtra - 411001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
       "id": "3",
-      "name": "Sneha Kulkarni",
-      "email": "sneha.kulkarni@gmail.com",
-      "phone": "9823456712",
-      "address": "Nagpur, Maharashtra - 440001",
-      "type": "student",
-      "isActive": "false"
+      "name": "Arjun Patel",
+      "email": "arjun.patel@gmail.com",
+      "phone": "9823456789",
+      "address": "Ahmedabad, Gujarat - 380001",
+      "type": "teacher",
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/men/20.jpg"
     },
     {
       "id": "4",
-      "name": "Rohan Deshmukh",
-      "email": "rohan.deshmukh@gmail.com",
+      "name": "Sneha Nair",
+      "email": "sneha.nair@gmail.com",
       "phone": "9812345678",
-      "address": "Nashik, Maharashtra - 422001",
+      "address": "Kochi, Kerala - 682001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/25.jpg"
     },
     {
       "id": "5",
-      "name": "Priya Shinde",
-      "email": "priya.shinde@gmail.com",
-      "phone": "9898989898",
-      "address": "Kolhapur, Maharashtra - 416001",
+      "name": "Amit Verma",
+      "email": "amit.verma@gmail.com",
+      "phone": "9765432109",
+      "address": "Delhi - 110001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/30.jpg"
     },
     {
       "id": "6",
-      "name": "Amit Jadhav",
-      "email": "amit.jadhav@gmail.com",
-      "phone": "9834678912",
-      "address": "Aurangabad, Maharashtra - 431001",
-      "type": "student",
-      "isActive": "false"
+      "name": "Priya Singh",
+      "email": "priya.singh@gmail.com",
+      "phone": "9754321098",
+      "address": "Lucknow, Uttar Pradesh - 226001",
+      "type": "teacher",
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
     },
     {
       "id": "7",
-      "name": "Neha More",
-      "email": "neha.more@gmail.com",
-      "phone": "9765432109",
-      "address": "Thane, Maharashtra - 400601",
+      "name": "Karan Mehta",
+      "email": "karan.mehta@gmail.com",
+      "phone": "9743210987",
+      "address": "Jaipur, Rajasthan - 302001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
     },
     {
       "id": "8",
-      "name": "Suresh Pawar",
-      "email": "suresh.pawar@gmail.com",
-      "phone": "9823567890",
-      "address": "Satara, Maharashtra - 415001",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@gmail.com",
+      "phone": "9732109876",
+      "address": "Bhopal, Madhya Pradesh - 462001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/40.jpg"
     },
     {
       "id": "9",
-      "name": "Ankita Joshi",
-      "email": "ankita.joshi@gmail.com",
-      "phone": "9911223344",
-      "address": "Solapur, Maharashtra - 413001",
+      "name": "Vikas Yadav",
+      "email": "vikas.yadav@gmail.com",
+      "phone": "9721098765",
+      "address": "Varanasi, Uttar Pradesh - 221001",
       "type": "student",
-      "isActive": "false"
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/men/42.jpg"
     },
     {
       "id": "10",
-      "name": "Rahul Patankar",
-      "email": "rahul.patankar@gmail.com",
-      "phone": "9900112233",
-      "address": "Sangli, Maharashtra - 416416",
+      "name": "Ananya Rao",
+      "email": "ananya.rao@gmail.com",
+      "phone": "9710987654",
+      "address": "Hyderabad, Telangana - 500001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
       "id": "11",
-      "name": "Pooja Sawant",
-      "email": "pooja.sawant@gmail.com",
-      "phone": "9887766554",
-      "address": "Ratnagiri, Maharashtra - 415612",
-      "type": "student",
-      "isActive": "true"
+      "name": "Rahul Desai",
+      "email": "rahul.desai@gmail.com",
+      "phone": "9709876543",
+      "address": "Surat, Gujarat - 395001",
+      "type": "teacher",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/50.jpg"
     },
     {
       "id": "12",
-      "name": "Kunal Gawande",
-      "email": "kunal.gawande@gmail.com",
-      "phone": "9823456711",
-      "address": "Amravati, Maharashtra - 444601",
+      "name": "Meera Joshi",
+      "email": "meera.joshi@gmail.com",
+      "phone": "9698765432",
+      "address": "Nagpur, Maharashtra - 440001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/women/55.jpg"
     },
     {
       "id": "13",
-      "name": "Meera Lokhande",
-      "email": "meera.lokhande@gmail.com",
-      "phone": "9811122233",
-      "address": "Dhule, Maharashtra - 424001",
+      "name": "Siddharth Kulkarni",
+      "email": "siddharth.kulkarni@gmail.com",
+      "phone": "9687654321",
+      "address": "Nashik, Maharashtra - 422001",
       "type": "student",
-      "isActive": "false"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/60.jpg"
     },
     {
       "id": "14",
-      "name": "Vikas Chavan",
-      "email": "vikas.chavan@gmail.com",
-      "phone": "9722334455",
-      "address": "Jalgaon, Maharashtra - 425001",
+      "name": "Pooja Iyer",
+      "email": "pooja.iyer@gmail.com",
+      "phone": "9676543210",
+      "address": "Chennai, Tamil Nadu - 600001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
     },
     {
       "id": "15",
-      "name": "Shivani Naik",
-      "email": "shivani.naik@gmail.com",
-      "phone": "9654321987",
-      "address": "Sindhudurg, Maharashtra - 416510",
+      "name": "Rohit Malhotra",
+      "email": "rohit.malhotra@gmail.com",
+      "phone": "9665432109",
+      "address": "Amritsar, Punjab - 143001",
+      "type": "teacher",
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/men/70.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Ishita Banerjee",
+      "email": "ishita.banerjee@gmail.com",
+      "phone": "9654321098",
+      "address": "Kolkata, West Bengal - 700001",
       "type": "student",
-      "isActive": "true"
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/75.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Manish Kumar",
+      "email": "manish.kumar@gmail.com",
+      "phone": "9643210987",
+      "address": "Patna, Bihar - 800001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/80.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Divya Reddy",
+      "email": "divya.reddy@gmail.com",
+      "phone": "9632109876",
+      "address": "Visakhapatnam, Andhra Pradesh - 530001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/85.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Suresh Pillai",
+      "email": "suresh.pillai@gmail.com",
+      "phone": "9621098765",
+      "address": "Thiruvananthapuram, Kerala - 695001",
+      "type": "teacher",
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/men/90.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Kavya Kapoor",
+      "email": "kavya.kapoor@gmail.com",
+      "phone": "9610987654",
+      "address": "Shimla, Himachal Pradesh - 171001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/95.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Aditya Jain",
+      "email": "aditya.jain@gmail.com",
+      "phone": "9609876543",
+      "address": "Indore, Madhya Pradesh - 452001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Shreya Das",
+      "email": "shreya.das@gmail.com",
+      "phone": "9598765432",
+      "address": "Guwahati, Assam - 781001",
+      "type": "student",
+      "isActive": "false",
+      "avatar": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Anjali Kumari",
+      "email": "anjali.kumari@gmail.com",
+      "phone": "9576543210",
+      "address": "Ranchi, Jharkhand - 834001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Harsh Vardhan",
+      "email": "harsh.vardhan@gmail.com",
+      "phone": "9565432109",
+      "address": "Bangalore, Karnataka - 560001",
+      "type": "student",
+      "isActive": "true",
+      "avatar": "https://randomuser.me/api/portraits/men/28.jpg"
     }
   ],
   "fines": [
@@ -545,7 +883,7 @@
       "MemberID": 208,
       "IssueID": 8,
       "Amount": 3,
-      "PaidStatus": "Unpaid",
+      "PaidStatus": "Paid",
       "PaymentDate": null,
       "id": "fe5a"
     },
@@ -572,8 +910,8 @@
       "MemberID": 220,
       "IssueID": 20,
       "Amount": 8,
-      "PaidStatus": "Unpaid",
-      "PaymentDate": null,
+      "PaidStatus": "Paid",
+      "PaymentDate": "2024-06-25",
       "id": "b2b0"
     },
     {

@@ -6,7 +6,9 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import Books from "./Components/Books/Books";
 import Members from "./Components/Members/Member";
 import Fines from "./Components/Fines/Fines";
+import IssueReturn from "./Components/IssueReturn/IssueReturn";
 import PrivateRoute from "./Components/PrivateRoute";
+import Reservation from "./Components/Reservation/Reservation";
 
 function App() {
   // Login state App level pe maintain karna
@@ -51,9 +53,28 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route
+          path="/issue-return"
+          element={
+            <PrivateRoute isLoggedIn={isLoggedIn}>
+              <IssueReturn />
+            </PrivateRoute>
+          }
+        />
+         <Route
+          path="/reservation"
+          element={
+            <PrivateRoute isLoggedIn={isLoggedIn}>
+              <Reservation />
+            </PrivateRoute>
+          }
+        />
+
       </Routes>
     </>
   );
 }
 
 export default App;
+
+

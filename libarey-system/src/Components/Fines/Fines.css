@@ -1,10 +1,36 @@
+/* Fine Card Styles */
 .fine-card {
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .fine-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title */
+.fine-card .card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Card Text */
+.fine-card .card-text {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+/* Gradient Backgrounds */
+.bg-success {
+  background: linear-gradient(135deg, #28a745, #218838) !important;
+}
+
+.bg-warning {
+  background: linear-gradient(135deg, #ffc107, #e0a800) !important;
+}
+
+.bg-danger {
+  background: linear-gradient(135deg, #dc3545, #bd2130) !important;
 }
