@@ -4,26 +4,25 @@
       "id": "1",
       "title": "Frankenstein",
       "author": "Mary Shelley",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
-        "101",
-        "102",
-        "103"
+        "101"
       ],
-      "rent": false,
+      "rent": true,
       "gener": "Gothic Fiction",
       "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
       "reserved": false,
       "reservedBy": "",
       "reservedDate": "",
-      "memberId": "",
-      "dueDate": ""
+      "finePaid": false,
+      "dueDate": "2025-09-16",
+      "memberId": "3"
     },
     {
       "id": "2",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "isAvailable": "true",
+      "isAvailable": false,
       "isbn": [
         "201"
       ],
@@ -32,7 +31,10 @@
       "cover": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "memberId": "12",
+      "dueDate": "2025-09-16"
     },
     {
       "id": "3",
@@ -40,15 +42,16 @@
       "author": "Herman Melville",
       "isAvailable": "true",
       "isbn": [
-        "301",
-        "302"
+        "301"
       ],
       "rent": true,
       "gener": "Adventure",
-      "cover": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "cover": "https://covers.openlibrary.org/b/id/7222276-L.jpg",
       "reserved": true,
-      "reservedBy": "Member_2",
-      "reservedDate": "2025-09-05"
+      "reservedBy": "Rahul Desai",
+      "reservedDate": "2025-09-09",
+      "finePaid": true,
+      "dueDate": "2025-08-20"
     },
     {
       "id": "4",
@@ -60,10 +63,11 @@
       ],
       "rent": false,
       "gener": "Dystopian",
-      "cover": "https://covers.openlibrary.org/b/id/7222241-L.jpg",
+      "cover": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "5",
@@ -71,15 +75,16 @@
       "author": "F. Scott Fitzgerald",
       "isAvailable": "true",
       "isbn": [
-        "501",
-        "502"
+        "501"
       ],
-      "rent": false,
+      "rent": true,
       "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7352160-L.jpg",
+      "cover": "https://covers.openlibrary.org/b/id/7222161-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": true,
+      "dueDate": "2025-08-28"
     },
     {
       "id": "6",
@@ -89,12 +94,13 @@
       "isbn": [
         "601"
       ],
-      "rent": true,
-      "gener": "Drama",
+      "rent": false,
+      "gener": "Classic",
       "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
-      "reserved": true,
-      "reservedBy": "Member_5",
-      "reservedDate": "2025-09-01"
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "7",
@@ -102,30 +108,32 @@
       "author": "Leo Tolstoy",
       "isAvailable": "true",
       "isbn": [
-        "701",
-        "702"
+        "701"
       ],
-      "rent": false,
+      "rent": true,
       "gener": "Historical",
-      "cover": "https://covers.openlibrary.org/b/id/7222325-L.jpg",
+      "cover": "https://covers.openlibrary.org/b/id/7222275-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-10"
     },
     {
       "id": "8",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
+      "title": "The Odyssey",
+      "author": "Homer",
       "isAvailable": "true",
       "isbn": [
         "801"
       ],
       "rent": false,
-      "gener": "Psychological Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222275-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
+      "gener": "Epic",
+      "cover": "https://covers.openlibrary.org/b/id/7222302-L.jpg",
+      "reserved": true,
+      "reservedBy": "5",
+      "reservedDate": "2025-09-05",
+      "finePaid": false
     },
     {
       "id": "9",
@@ -135,27 +143,30 @@
       "isbn": [
         "901"
       ],
-      "rent": false,
+      "rent": true,
       "gener": "Romance",
-      "cover": "https://covers.openlibrary.org/b/id/8091018-L.jpg",
+      "cover": "https://covers.openlibrary.org/b/id/8091025-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-22"
     },
     {
       "id": "10",
-      "title": "The Odyssey",
-      "author": "Homer",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
       "isAvailable": "true",
       "isbn": [
         "1001"
       ],
       "rent": false,
-      "gener": "Epic Poetry",
-      "cover": "https://covers.openlibrary.org/b/id/8231885-L.jpg",
+      "gener": "Philosophical",
+      "cover": "https://covers.openlibrary.org/b/id/7222303-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "11",
@@ -166,191 +177,210 @@
         "1101"
       ],
       "rent": true,
-      "gener": "Coming of Age",
-      "cover": "https://covers.openlibrary.org/b/id/8228571-L.jpg",
-      "reserved": true,
-      "reservedBy": "Member_7",
-      "reservedDate": "2025-09-07"
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/8231991-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-18"
     },
     {
       "id": "12",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isAvailable": "true",
+      "isbn": [
+        "1201"
+      ],
+      "rent": false,
+      "gener": "Science Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/7222206-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": false
+    },
+    {
+      "id": "13",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "isAvailable": "true",
+      "isbn": [
+        "1301"
+      ],
+      "rent": true,
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/8091015-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": true,
+      "dueDate": "2025-08-27"
+    },
+    {
+      "id": "14",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "isAvailable": "true",
       "isbn": [
-        "1201"
+        "1401"
       ],
       "rent": false,
       "gener": "Fantasy",
       "cover": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "13",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "isAvailable": "true",
-      "isbn": [
-        "1301"
-      ],
-      "rent": false,
-      "gener": "Dystopian",
-      "cover": "https://covers.openlibrary.org/b/id/7222296-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "14",
-      "title": "Anna Karenina",
-      "author": "Leo Tolstoy",
-      "isAvailable": "true",
-      "isbn": [
-        "1401"
-      ],
-      "rent": false,
-      "gener": "Tragedy",
-      "cover": "https://covers.openlibrary.org/b/id/7222326-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "15",
-      "title": "Les Misérables",
-      "author": "Victor Hugo",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
       "isAvailable": "true",
       "isbn": [
         "1501"
       ],
-      "rent": false,
-      "gener": "Historical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222328-L.jpg",
+      "rent": true,
+      "gener": "Dystopian",
+      "cover": "https://covers.openlibrary.org/b/id/7222249-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-15"
     },
     {
       "id": "16",
-      "title": "Dracula",
-      "author": "Bram Stoker",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
       "isAvailable": "true",
       "isbn": [
         "1601"
       ],
       "rent": false,
-      "gener": "Horror",
-      "cover": "https://covers.openlibrary.org/b/id/7222278-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
+      "gener": "Romance",
+      "cover": "https://covers.openlibrary.org/b/id/7222291-L.jpg",
+      "reserved": true,
+      "reservedBy": "3",
+      "reservedDate": "2025-09-06",
+      "finePaid": false
     },
     {
       "id": "17",
-      "title": "Wuthering Heights",
-      "author": "Emily Brontë",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
       "isAvailable": "true",
       "isbn": [
         "1701"
       ],
       "rent": false,
-      "gener": "Romance",
-      "cover": "https://covers.openlibrary.org/b/id/7222280-L.jpg",
+      "gener": "Epic",
+      "cover": "https://covers.openlibrary.org/b/id/7222220-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "18",
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
+      "title": "Dracula",
+      "author": "Bram Stoker",
       "isAvailable": "true",
       "isbn": [
         "1801"
       ],
-      "rent": false,
-      "gener": "Epic Poetry",
-      "cover": "https://covers.openlibrary.org/b/id/7222299-L.jpg",
+      "rent": true,
+      "gener": "Horror",
+      "cover": "https://covers.openlibrary.org/b/id/8232486-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-12"
     },
     {
       "id": "19",
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
       "isAvailable": "true",
       "isbn": [
         "1901"
       ],
       "rent": false,
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7222305-L.jpg",
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222250-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "20",
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
       "isAvailable": "true",
       "isbn": [
         "2001"
       ],
-      "rent": false,
-      "gener": "Philosophical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222311-L.jpg",
+      "rent": true,
+      "gener": "Classic",
+      "cover": "https://covers.openlibrary.org/b/id/7222305-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-05"
     },
     {
       "id": "21",
-      "title": "A Tale of Two Cities",
-      "author": "Charles Dickens",
+      "title": "The Iliad",
+      "author": "Homer",
       "isAvailable": "true",
       "isbn": [
         "2101"
       ],
       "rent": false,
-      "gener": "Historical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222331-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
+      "gener": "Epic",
+      "cover": "https://covers.openlibrary.org/b/id/7222210-L.jpg",
+      "reserved": true,
+      "reservedBy": "2",
+      "reservedDate": "2025-09-07",
+      "finePaid": false
     },
     {
       "id": "22",
-      "title": "Fahrenheit 451",
-      "author": "Ray Bradbury",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
       "isAvailable": "true",
       "isbn": [
         "2201"
       ],
       "rent": true,
-      "gener": "Dystopian",
-      "cover": "https://covers.openlibrary.org/b/id/7222308-L.jpg",
-      "reserved": true,
-      "reservedBy": "Member_10",
-      "reservedDate": "2025-09-06"
+      "gener": "Philosophical",
+      "cover": "https://covers.openlibrary.org/b/id/7222285-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": true,
+      "dueDate": "2025-08-26"
     },
     {
       "id": "23",
-      "title": "The Alchemist",
-      "author": "Paulo Coelho",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
       "isAvailable": "true",
       "isbn": [
         "2301"
       ],
       "rent": false,
-      "gener": "Adventure",
-      "cover": "https://covers.openlibrary.org/b/id/8108696-L.jpg",
+      "gener": "Realist",
+      "cover": "https://covers.openlibrary.org/b/id/7222223-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "24",
@@ -360,27 +390,30 @@
       "isbn": [
         "2401"
       ],
-      "rent": false,
-      "gener": "Philosophical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222315-L.jpg",
+      "rent": true,
+      "gener": "Philosophical",
+      "cover": "https://covers.openlibrary.org/b/id/7222253-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-21"
     },
     {
       "id": "25",
-      "title": "Lord of the Flies",
-      "author": "William Golding",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
       "isAvailable": "true",
       "isbn": [
         "2501"
       ],
       "rent": false,
-      "gener": "Allegorical Novel",
-      "cover": "https://covers.openlibrary.org/b/id/7222319-L.jpg",
+      "gener": "Historical",
+      "cover": "https://covers.openlibrary.org/b/id/7222289-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "26",
@@ -392,220 +425,78 @@
       ],
       "rent": true,
       "gener": "Adventure",
-      "cover": "https://covers.openlibrary.org/b/id/7222322-L.jpg",
-      "reserved": true,
-      "reservedBy": "Member_14",
-      "reservedDate": "2025-08-30"
+      "cover": "https://covers.openlibrary.org/b/id/7222234-L.jpg",
+      "reserved": false,
+      "reservedBy": "",
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-16"
     },
     {
       "id": "27",
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
+      "title": "Ulysses",
+      "author": "James Joyce",
       "isAvailable": "true",
       "isbn": [
         "2701"
       ],
       "rent": false,
-      "gener": "Magic Realism",
-      "cover": "https://covers.openlibrary.org/b/id/7222327-L.jpg",
+      "gener": "Modernist",
+      "cover": "https://covers.openlibrary.org/b/id/7222267-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "28",
-      "title": "The Old Man and the Sea",
-      "author": "Ernest Hemingway",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
       "isAvailable": "true",
       "isbn": [
         "2801"
       ],
-      "rent": false,
-      "gener": "Novella",
-      "cover": "https://covers.openlibrary.org/b/id/7222335-L.jpg",
+      "rent": true,
+      "gener": "Adventure",
+      "cover": "https://covers.openlibrary.org/b/id/7222268-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-14"
     },
     {
       "id": "29",
-      "title": "The Iliad",
-      "author": "Homer",
+      "title": "The Stranger",
+      "author": "Albert Camus",
       "isAvailable": "true",
       "isbn": [
         "2901"
       ],
       "rent": false,
-      "gener": "Epic Poetry",
-      "cover": "https://covers.openlibrary.org/b/id/7222338-L.jpg",
+      "gener": "Philosophical",
+      "cover": "https://covers.openlibrary.org/b/id/7222257-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false
     },
     {
       "id": "30",
-      "title": "The Stranger",
-      "author": "Albert Camus",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
       "isAvailable": "true",
       "isbn": [
         "3001"
       ],
-      "rent": false,
-      "gener": "Philosophical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222341-L.jpg",
+      "rent": true,
+      "gener": "Magical Realism",
+      "cover": "https://covers.openlibrary.org/b/id/7222295-L.jpg",
       "reserved": false,
       "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "31",
-      "title": "Great Expectations",
-      "author": "Charles Dickens",
-      "isAvailable": "true",
-      "isbn": [
-        "3101"
-      ],
-      "rent": false,
-      "gener": "Classic",
-      "cover": "https://covers.openlibrary.org/b/id/7222344-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "32",
-      "title": "The Sound and the Fury",
-      "author": "William Faulkner",
-      "isAvailable": "true",
-      "isbn": [
-        "3201"
-      ],
-      "rent": false,
-      "gener": "Modernist",
-      "cover": "https://covers.openlibrary.org/b/id/7222347-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "33",
-      "title": "Beloved",
-      "author": "Toni Morrison",
-      "isAvailable": "true",
-      "isbn": [
-        "3301"
-      ],
-      "rent": false,
-      "gener": "Historical Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222350-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "34",
-      "title": "The Grapes of Wrath",
-      "author": "John Steinbeck",
-      "isAvailable": "true",
-      "isbn": [
-        "3401"
-      ],
-      "rent": false,
-      "gener": "Social Commentary",
-      "cover": "https://covers.openlibrary.org/b/id/7222353-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "35",
-      "title": "Slaughterhouse-Five",
-      "author": "Kurt Vonnegut",
-      "isAvailable": "true",
-      "isbn": [
-        "3501"
-      ],
-      "rent": false,
-      "gener": "Science Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222356-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "36",
-      "title": "The Metamorphosis",
-      "author": "Franz Kafka",
-      "isAvailable": "true",
-      "isbn": [
-        "3601"
-      ],
-      "rent": false,
-      "gener": "Absurdist Fiction",
-      "cover": "https://covers.openlibrary.org/b/id/7222359-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "37",
-      "title": "Heart of Darkness",
-      "author": "Joseph Conrad",
-      "isAvailable": "true",
-      "isbn": [
-        "3701"
-      ],
-      "rent": false,
-      "gener": "Novella",
-      "cover": "https://covers.openlibrary.org/b/id/7222362-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "38",
-      "title": "Ulysses",
-      "author": "James Joyce",
-      "isAvailable": "true",
-      "isbn": [
-        "3801"
-      ],
-      "rent": false,
-      "gener": "Modernist",
-      "cover": "https://covers.openlibrary.org/b/id/7222365-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "39",
-      "title": "The Sun Also Rises",
-      "author": "Ernest Hemingway",
-      "isAvailable": "true",
-      "isbn": [
-        "3901"
-      ],
-      "rent": false,
-      "gener": "Novel",
-      "cover": "https://covers.openlibrary.org/b/id/7222368-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
-    },
-    {
-      "id": "40",
-      "title": "Invisible Man",
-      "author": "Ralph Ellison",
-      "isAvailable": "true",
-      "isbn": [
-        "4001"
-      ],
-      "rent": false,
-      "gener": "African-American Literature",
-      "cover": "https://covers.openlibrary.org/b/id/7222371-L.jpg",
-      "reserved": false,
-      "reservedBy": "",
-      "reservedDate": ""
+      "reservedDate": "",
+      "finePaid": false,
+      "dueDate": "2025-08-09"
     }
   ],
   "Member": [
