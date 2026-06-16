@@ -1,0 +1,661 @@
+{
+  "members": [
+    {
+      "id": "3",
+      "name": "Amit Verma",
+      "email": "amit@example.com",
+      "phone": "9876543212",
+      "available": false,
+      "gender": "Male",
+      "address": "Gomti Nagar, Lucknow, Uttar Pradesh"
+    },
+    {
+      "id": "4",
+      "name": "Neha Patel",
+      "email": "neha@example.com",
+      "phone": "9876543213",
+      "available": true,
+      "gender": "Female",
+      "address": "Navrangpura, Ahmedabad, Gujarat"
+    },
+    {
+      "id": "6",
+      "name": "Kavita Joshi",
+      "email": "kavita@example.com",
+      "phone": "9876543215",
+      "available": true,
+      "gender": "Female",
+      "address": "Sector 17, Chandigarh"
+    },
+    {
+      "id": "7",
+      "name": "Vikram Singh",
+      "email": "vikram@example.com",
+      "phone": "9876543216",
+      "available": true,
+      "gender": "Male",
+      "address": "Banjara Hills, Hyderabad, Telangana"
+    },
+    {
+      "id": "8",
+      "name": "Alok Gupta",
+      "email": "alok@example.com",
+      "phone": "9876543217",
+      "available": false,
+      "gender": "Male",
+      "address": "Hazaribagh, Jharkhand"
+    },
+    {
+      "id": "9",
+      "name": "Sunita Rao",
+      "email": "sunita@example.com",
+      "phone": "9876543218",
+      "available": true,
+      "gender": "Female",
+      "address": "Indiranagar, Bengaluru, Karnataka"
+    },
+    {
+      "id": "10",
+      "name": "Deepak Kumar",
+      "email": "deepak@example.com",
+      "phone": "9876543219",
+      "available": true,
+      "gender": "Male",
+      "address": "Fraser Town, Bengaluru, Karnataka"
+    },
+    {
+      "id": "11",
+      "name": "Manish Tiwari",
+      "email": "manish@example.com",
+      "phone": "9876543220",
+      "available": false,
+      "gender": "Male",
+      "address": "Aliganj, Lucknow, Uttar Pradesh"
+    },
+    {
+      "id": "12",
+      "name": "Anjali Desai",
+      "email": "anjali@example.com",
+      "phone": "9876543221",
+      "available": true,
+      "gender": "Female",
+      "address": "Vastrapur, Ahmedabad, Gujarat"
+    },
+    {
+      "id": "13",
+      "name": "Pooja Bansal",
+      "email": "pooja@example.com",
+      "phone": "9876543222",
+      "available": true,
+      "gender": "Female",
+      "address": "Model Town, Ludhiana, Punjab"
+    },
+    {
+      "id": "14",
+      "name": "Rahul Nair",
+      "email": "rahul@example.com",
+      "phone": "9876543223",
+      "available": false,
+      "gender": "Male",
+      "address": "Kochi, Kerala"
+    },
+    {
+      "id": "15",
+      "name": "Sneha Kapoor",
+      "email": "sneha@example.com",
+      "phone": "9876543224",
+      "available": true,
+      "gender": "Female",
+      "address": "Connaught Place, New Delhi"
+    }
+  ],
+  "books": [
+    {
+      "id": "B103",
+      "title": "Data Structures",
+      "author": "Narasimha Karumanchi",
+      "genre": "Computer Science",
+      "available": false,
+      "rent": 50,
+      "description": "This book covers fundamental and advanced data structures. It includes problem-solving techniques and practical examples that are useful for interviews and exams.",
+      "image": "https://d3525k1ryd2155.cloudfront.net/f/866/108/9781468108866.ME.0.m.jpg"
+    },
+    {
+      "id": "B107",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "available": true,
+      "rent": 60,
+      "description": "A handbook of agile software craftsmanship. It explains principles, patterns, and best practices for writing clean, maintainable, and efficient code.",
+      "image": "https://m.media-amazon.com/images/I/41xShlnTZTL._SX374_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": "B108",
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "genre": "Software Engineering",
+      "available": true,
+      "rent": 70,
+      "description": "This book introduces reusable design patterns that help developers create flexible and maintainable software. It is a classic reference for object-oriented design.",
+      "image": "https://m.media-amazon.com/images/I/71sjeQGh7VL.SL1500.jpg"
+    },
+    {
+      "id": "B109",
+      "title": "Artificial Intelligence",
+      "author": "Stuart Russell",
+      "genre": "AI",
+      "available": false,
+      "rent": 100,
+      "description": "Comprehensive guide to AI, covering search algorithms, machine learning, robotics, and natural language processing. A must-read for AI students and researchers.",
+      "image": "https://m.media-amazon.com/images/I/61-6TTTBZeL.SL1000.jpg"
+    },
+    {
+      "id": "B110",
+      "title": "Machine Learning",
+      "author": "Tom Mitchell",
+      "genre": "AI",
+      "available": true,
+      "rent": 90,
+      "description": "One of the earliest standard textbooks in machine learning. It explains concepts like decision trees, neural networks, and probabilistic models with clarity.",
+      "image": "https://m.media-amazon.com/images/I/71NIrX79-HL.SY425.jpg"
+    },
+    {
+      "id": "B111",
+      "title": "Operating Systems",
+      "author": "Abraham Silberschatz",
+      "genre": "Computer Science",
+      "available": true,
+      "rent": 65,
+      "description": "Classic OS concepts explained with real-world examples. Topics include process management, memory, storage, and distributed systems.",
+      "image": "https://m.media-amazon.com/images/I/81z6V7RHmNL.SL1500.jpg"
+    },
+    {
+      "id": "B112",
+      "title": "Database System Concepts",
+      "author": "Raghu Ramakrishnan",
+      "genre": "Computer Science",
+      "available": true,
+      "rent": 55,
+      "description": "A complete guide to database system design, SQL queries, normalization, and distributed databases. Widely used as an academic textbook.",
+      "image": "https://cdn01.sapnaonline.com/product_media/9789339213114/md_9789339213114.jpg"
+    },
+    {
+      "id": "B113",
+      "title": "C++ Primer",
+      "author": "Stanley Lippman",
+      "genre": "Programming",
+      "available": false,
+      "rent": 75,
+      "description": "Comprehensive coverage of C++ programming language with practical coding examples. Suitable for both beginners and professionals.",
+      "image": "https://d3525k1ryd2155.cloudfront.net/f/879/164/9780201164879.OL.0.m.jpg"
+    },
+    {
+      "id": "B114",
+      "title": "Java: The Complete Reference",
+      "author": "Herbert Schildt",
+      "genre": "Programming",
+      "available": true,
+      "rent": 70,
+      "description": "Detailed explanation of Java concepts, libraries, and APIs. This book is considered the bible for Java programmers worldwide.",
+      "image": "https://m.media-amazon.com/images/I/61yXSTATHHL.UF1000,1000_QL80.jpg"
+    },
+    {
+      "id": "B115",
+      "title": "Cyber Security Basics",
+      "author": "William Stallings",
+      "genre": "Security",
+      "available": true,
+      "rent": 85,
+      "description": "Introduces cyber security threats, cryptography, and defensive techniques. It provides real-world case studies and strategies.",
+      "image": "https://i.ebayimg.com/images/g/SLsAAOSwMPRlWjJU/s-l1200.jpg"
+    },
+    {
+      "id": "B116",
+      "title": "Computer Networks",
+      "author": "Andrew S. Tanenbaum",
+      "genre": "Networking",
+      "available": true,
+      "rent": 90,
+      "description": "In-depth coverage of networking principles, protocols, and architectures. A must-have for networking students and professionals.",
+      "image": "https://m.media-amazon.com/images/I/711kWvQrcIL.UF1000,1000_QL80.jpg"
+    },
+    {
+      "id": "B117",
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "genre": "Programming",
+      "available": true,
+      "rent": 65,
+      "description": "Beginner-friendly introduction to Python with projects on games, web apps, and data visualization. Perfect for self-learners.",
+      "image": "https://m.media-amazon.com/images/I/71pys4B4OVL.UF1000,1000_QL80.jpg"
+    },
+    {
+      "id": "B118",
+      "title": "Deep Learning",
+      "author": "Ian Goodfellow",
+      "genre": "AI",
+      "available": false,
+      "rent": 100,
+      "description": "Definitive book on deep learning, covering neural networks, optimization, and modern architectures. Written by pioneers in the field.",
+      "image": "https://m.media-amazon.com/images/I/A10G+oKN3LL.jpg"
+    },
+    {
+      "id": "B119",
+      "title": "HTML & CSS: Design and Build Websites",
+      "author": "Jon Duckett",
+      "genre": "Web Development",
+      "available": true,
+      "rent": 40,
+      "description": "Visually rich introduction to HTML and CSS for beginners. Includes diagrams and step-by-step tutorials.",
+      "image": "https://m.media-amazon.com/images/I/613ZTDcDsiL.jpg"
+    },
+    {
+      "id": "B120",
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "genre": "Web Development",
+      "available": true,
+      "rent": 55,
+      "description": "Highlights the most effective features of JavaScript. Provides insights into writing efficient, clean, and bug-free JS code.",
+      "image": "https://m.media-amazon.com/images/I/51gdVAEfPUL.jpg"
+    },
+    {
+      "id": "B121",
+      "title": "You Don’t Know JS",
+      "author": "Kyle Simpson",
+      "genre": "Web Development",
+      "available": true,
+      "rent": 60,
+      "description": "Deep dive into the inner workings of JavaScript. Each volume covers specific areas like scope, closures, async, and performance.",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1585414018i/52764087.jpg"
+    },
+    {
+      "id": "B122",
+      "title": "Modern Operating Systems",
+      "author": "Andrew S. Tanenbaum",
+      "genre": "Computer Science",
+      "available": false,
+      "rent": 80,
+      "description": "Updated edition covering modern OS architectures, security, and virtualization concepts. Widely used as a reference book.",
+      "image": "https://m.media-amazon.com/images/I/9162thPPL+L.UF1000,1000_QL80.jpg"
+    },
+    {
+      "id": "B123",
+      "title": "Linux Basics for Hackers",
+      "author": "OccupyTheWeb",
+      "genre": "Security",
+      "available": true,
+      "rent": 70,
+      "description": "Practical guide for beginners to learn Linux with hacking tools and commands. Great for ethical hackers and security students.",
+      "image": "https://m.media-amazon.com/images/I/81FX4OK2njL.jpg"
+    },
+    {
+      "id": "B124",
+      "title": "Ethical Hacking",
+      "author": "Rafay Baloch",
+      "genre": "Security",
+      "available": true,
+      "rent": 85,
+      "description": "Detailed book on penetration testing, ethical hacking methods, and modern cyber threats with case studies.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn98Z0-jRCrtk18TeiTZFPpiLWxYORxjKU7wtu76bU_mRHwOWNTiLRIFtnAxLSiSxs17A&usqp=CAU"
+    },
+    {
+      "id": "B125",
+      "title": "Cloud Computing: Principles and Paradigms",
+      "author": "Rajkumar Buyya",
+      "genre": "Cloud",
+      "available": true,
+      "rent": 75,
+      "description": "Covers foundations of cloud computing including virtualization, SaaS, IaaS, and distributed systems.",
+      "image": "https://media.wiley.com/product_data/coverImage300/90/04708879/0470887990.jpg"
+    },
+    {
+      "id": "B126",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "genre": "Finance",
+      "available": true,
+      "rent": 50,
+      "description": "This book teaches the difference between working for money and making money work for you. It focuses on financial independence and investment strategies.",
+      "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+    },
+    {
+      "id": "B127",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "genre": "Motivation",
+      "available": true,
+      "rent": 45,
+      "description": "A timeless classic on personal development and success, teaching the power of thoughts, persistence, and goal-setting.",
+      "image": "https://m.media-amazon.com/images/I/71UypkUjStL.jpg"
+    },
+    {
+      "id": "B128",
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "genre": "Finance",
+      "available": false,
+      "rent": 70,
+      "description": "Known as the bible of investing, this book teaches principles of value investing and risk management.",
+      "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg"
+    },
+    {
+      "id": "B129",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "genre": "Business",
+      "available": true,
+      "rent": 60,
+      "description": "A guide for entrepreneurs on how to build successful startups using lean principles, experimentation, and validated learning.",
+      "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "B130",
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "genre": "Business",
+      "available": true,
+      "rent": 55,
+      "description": "Insights on innovation, monopoly building, and creating businesses that go from zero to something new and unique.",
+      "image": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg"
+    },
+    {
+      "id": "B131",
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "genre": "Self-help",
+      "available": true,
+      "rent": 50,
+      "description": "Powerful habits for personal and professional effectiveness, focusing on character ethics and proactive behavior.",
+      "image": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "B132",
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "genre": "Self-help",
+      "available": true,
+      "rent": 40,
+      "description": "Classic book on communication, persuasion, and leadership skills to succeed personally and professionally.",
+      "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+    },
+    {
+      "id": "B133",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-help",
+      "available": true,
+      "rent": 65,
+      "description": "Explains how small daily habits lead to remarkable results. Practical techniques to build good habits and break bad ones.",
+      "image": "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg"
+    },
+    {
+      "id": "B134",
+      "title": "Principles",
+      "author": "Ray Dalio",
+      "genre": "Business",
+      "available": false,
+      "rent": 80,
+      "description": "Billionaire investor Ray Dalio shares life and work principles that helped him build Bridgewater Associates.",
+      "image": "https://m.media-amazon.com/images/I/71M1eEsQ43L.jpg"
+    },
+    {
+      "id": "B135",
+      "title": "The 4-Hour Workweek",
+      "author": "Timothy Ferriss",
+      "genre": "Lifestyle",
+      "available": true,
+      "rent": 60,
+      "description": "Guides on designing a lifestyle of financial freedom, remote work, and automation to escape the 9-to-5 grind.",
+      "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg"
+    },
+    {
+      "id": "B136",
+      "title": "Start with Why",
+      "author": "Simon Sinek",
+      "genre": "Business",
+      "available": true,
+      "rent": 50,
+      "description": "Explains the importance of purpose-driven leadership and how great leaders inspire action by starting with 'Why'.",
+      "image": "https://m.media-amazon.com/images/I/71s8H8UkULS.jpg"
+    },
+    {
+      "id": "B137",
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "genre": "Business",
+      "available": true,
+      "rent": 55,
+      "description": "Research-backed book on why some companies transition from good to great while others don’t.",
+      "image": "https://m.media-amazon.com/images/I/71M1eEsQ43L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "B138",
+      "title": "Blue Ocean Strategy",
+      "author": "W. Chan Kim & Renée Mauborgne",
+      "genre": "Business",
+      "available": true,
+      "rent": 65,
+      "description": "Teaches how to create uncontested market space and make competition irrelevant.",
+      "image": "https://m.media-amazon.com/images/I/71UwUu3eFZL.jpg"
+    },
+    {
+      "id": "B139",
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "genre": "Self-help",
+      "available": true,
+      "rent": 55,
+      "description": "Explores the science of habits and how they shape our lives, with strategies to change them.",
+      "image": "https://m.media-amazon.com/images/I/71UwUu3eFZL.jpg"
+    },
+    {
+      "id": "B140",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "genre": "Strategy",
+      "available": true,
+      "rent": 40,
+      "description": "Ancient Chinese military strategy text, widely applied in business, leadership, and decision-making.",
+      "image": "https://m.media-amazon.com/images/I/81Q9eK9oYSL.jpg"
+    }
+  ],
+  "issues": [
+    {
+      "id": "1",
+      "memberName": "Amit Verma",
+      "bookName": "Data Structures",
+      "issueDate": "2025-08-03",
+      "dueDate": "2025-08-17",
+      "returnDate": null
+    },
+    {
+      "id": "2",
+      "memberName": "Neha Patel",
+      "bookName": "HTML & CSS: Design and Build Websites",
+      "issueDate": "2025-08-04",
+      "dueDate": "2025-08-18",
+      "returnDate": null
+    },
+    {
+      "id": "3",
+      "memberName": "Kavita Joshi",
+      "bookName": "Node.js Design Patterns",
+      "issueDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-14"
+    },
+    {
+      "id": "4",
+      "memberName": "Vikram Singh",
+      "bookName": "Clean Code",
+      "issueDate": "2025-08-07",
+      "dueDate": "2025-08-21",
+      "returnDate": null
+    },
+    {
+      "id": "5",
+      "memberName": "Alok Gupta",
+      "bookName": "Design Patterns",
+      "issueDate": "2025-08-08",
+      "dueDate": "2025-08-22",
+      "returnDate": null
+    },
+    {
+      "id": "6",
+      "memberName": "Sunita Rao",
+      "bookName": "Artificial Intelligence",
+      "issueDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null
+    },
+    {
+      "id": "7",
+      "memberName": "Deepak Kumar",
+      "bookName": "Machine Learning",
+      "issueDate": "2025-08-10",
+      "dueDate": "2025-08-24",
+      "returnDate": null
+    },
+    {
+      "id": "8",
+      "memberName": "Manish Tiwari",
+      "bookName": "Operating Systems",
+      "issueDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": null
+    },
+    {
+      "id": "9",
+      "memberName": "Anjali Desai",
+      "bookName": "Database System Concepts",
+      "issueDate": "2025-08-12",
+      "dueDate": "2025-08-26",
+      "returnDate": null
+    },
+    {
+      "id": "10",
+      "memberName": "Pooja Bansal",
+      "bookName": "C++ Primer",
+      "issueDate": "2025-08-13",
+      "dueDate": "2025-08-27",
+      "returnDate": null
+    },
+    {
+      "id": "11",
+      "memberName": "Rahul Nair",
+      "bookName": "Java: The Complete Reference",
+      "issueDate": "2025-08-14",
+      "dueDate": "2025-08-28",
+      "returnDate": null
+    },
+    {
+      "id": "12",
+      "memberName": "Sneha Kapoor",
+      "bookName": "Cyber Security Basics",
+      "issueDate": "2025-08-15",
+      "dueDate": "2025-08-29",
+      "returnDate": null
+    }
+  ],
+
+  "fines": [
+    {
+      "id": "1",
+      "memberName": "Amit Verma",
+      "bookName": "Data Structures",
+      "dueDate": "2025-08-17",
+      "returnDate": "2025-08-25",
+      "fineAmount": 80
+    },
+    {
+      "id": "2",
+      "memberName": "Neha Patel",
+      "bookName": "HTML & CSS: Design and Build Websites",
+      "dueDate": "2025-08-18",
+      "returnDate": "2025-08-19",
+      "fineAmount": 10
+    },
+    {
+      "id": "3",
+      "memberName": "Kavita Joshi",
+      "bookName": "Node.js Design Patterns",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-28",
+      "fineAmount": 80
+    },
+    {
+      "id": "4",
+      "memberName": "Vikram Singh",
+      "bookName": "Clean Code",
+      "dueDate": "2025-08-21",
+      "returnDate": "2025-08-24",
+      "fineAmount": 30
+    },
+    {
+      "id": "5",
+      "memberName": "Alok Gupta",
+      "bookName": "Design Patterns",
+      "dueDate": "2025-08-22",
+      "returnDate": "2025-08-30",
+      "fineAmount": 100
+    },
+    {
+      "id": "6",
+      "memberName": "Sunita Rao",
+      "bookName": "Artificial Intelligence",
+      "dueDate": "2025-08-23",
+      "returnDate": "2025-08-27",
+      "fineAmount": 40
+    },
+    {
+      "id": "7",
+      "memberName": "Deepak Kumar",
+      "bookName": "Machine Learning",
+      "dueDate": "2025-08-24",
+      "returnDate": "2025-08-26",
+      "fineAmount": 20
+    },
+    {
+      "id": "8",
+      "memberName": "Manish Tiwari",
+      "bookName": "Operating Systems",
+      "dueDate": "2025-08-25",
+      "returnDate": "2025-08-31",
+      "fineAmount": 60
+    },
+    {
+      "id": "9",
+      "memberName": "Anjali Desai",
+      "bookName": "Database System Concepts",
+      "dueDate": "2025-08-26",
+      "returnDate": "2025-08-29",
+      "fineAmount": 30
+    },
+    {
+      "id": "10",
+      "memberName": "Pooja Bansal",
+      "bookName": "C++ Primer",
+      "dueDate": "2025-08-27",
+      "returnDate": "2025-09-02",
+      "fineAmount": 70
+    },
+    {
+      "id": "11",
+      "memberName": "Rahul Nair",
+      "bookName": "Java: The Complete Reference",
+      "dueDate": "2025-08-28",
+      "returnDate": "2025-09-05",
+      "fineAmount": 90
+    },
+    {
+      "id": "12",
+      "memberName": "Sneha Kapoor",
+      "bookName": "Cyber Security Basics",
+      "dueDate": "2025-08-29",
+      "returnDate": "2025-09-01",
+      "fineAmount": 30
+    }
+  ]
+}
